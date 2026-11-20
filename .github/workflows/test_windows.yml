@@ -5,6 +5,8 @@ on:
     # For example, the Windows Exporter for Prometheus and Event Log tailers.
     branches:
       - main
+  merge_group:
+    types: [checks_requested]
   # TODO: Run the Windows tests for each PR?
   # For now we don't do it just because it takes time.
   pull_request:
