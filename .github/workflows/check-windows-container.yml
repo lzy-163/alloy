@@ -25,6 +25,7 @@ permissions:
 jobs:
   check_windows_container:
     uses: ./.github/workflows/publish-alloy.yml
+    secrets: inherit
     with:
       img-name: alloy-devel
       push: false
