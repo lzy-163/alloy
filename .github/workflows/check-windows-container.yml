@@ -28,3 +28,6 @@ jobs:
     with:
       img-name: alloy-devel
       push: false
+    permissions:
+      contents: read
+      id-token: write
