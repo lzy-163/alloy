@@ -28,3 +28,4 @@ jobs:
     with:
       img-name: alloy-devel
       push: false
+    secrets: inherit
